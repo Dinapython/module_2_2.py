@@ -2,9 +2,9 @@ first = int(input("Первый "))
 second = int(input("Второй "))
 third = int(input("Третий "))
 
-if first == second and second == third:
-    print("Все числа одинаковые")
-elif not (first == second and second == third):
-    print("Все разные")
+if first == second == third:
+    print(3)
+elif first == second or second == third:
+    print(2)
 else:
-    print("Ни то, ни другое")
+    print(0)
